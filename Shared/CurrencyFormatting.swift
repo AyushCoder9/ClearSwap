@@ -25,3 +25,5 @@ public enum CurrencyFormatting {
         return string(from: decimal)
     }
 }
+
+// MARK: - Formatting update
