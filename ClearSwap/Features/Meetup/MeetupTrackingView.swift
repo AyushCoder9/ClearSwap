@@ -213,3 +213,5 @@ struct MeetupTrackingView: View {
         }
     }
 }
+
+// MARK: - Formatting update
