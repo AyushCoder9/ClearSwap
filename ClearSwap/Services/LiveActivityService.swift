@@ -90,3 +90,5 @@ final class LiveActivityService: ObservableObject {
         }
     }
 }
+
+// MARK: - Formatting update
