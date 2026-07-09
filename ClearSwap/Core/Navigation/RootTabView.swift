@@ -157,5 +157,3 @@ struct SettingsView: View {
         HapticsService.shared.playTap()
     }
 }
-
-// MARK: - Formatting update
