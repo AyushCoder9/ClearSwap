@@ -75,3 +75,5 @@ struct CheckoutSuccessView: View {
         HapticsService.shared.playTap()
     }
 }
+
+// MARK: - Formatting update
