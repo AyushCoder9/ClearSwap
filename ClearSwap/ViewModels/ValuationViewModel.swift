@@ -47,5 +47,3 @@ final class ValuationViewModel {
         }
     }
 }
-
-// MARK: - Formatting update
