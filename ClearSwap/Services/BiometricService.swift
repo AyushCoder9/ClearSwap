@@ -17,5 +17,3 @@ enum BiometricService {
         )
     }
 }
-
-// MARK: - Formatting update
