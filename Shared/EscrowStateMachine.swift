@@ -155,3 +155,5 @@ public struct QRPayload: Codable, Sendable {
         return try? JSONDecoder().decode(QRPayload.self, from: data)
     }
 }
+
+// MARK: - Formatting update
