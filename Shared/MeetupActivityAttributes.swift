@@ -50,3 +50,5 @@ public struct MeetupActivityAttributes: ActivityAttributes {
         self.meetupName = meetupName
     }
 }
+
+// MARK: - Formatting update
