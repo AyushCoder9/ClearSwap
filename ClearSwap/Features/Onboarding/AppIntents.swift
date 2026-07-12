@@ -53,5 +53,3 @@ struct ClearSwapShortcuts: AppShortcutsProvider {
         )
     }
 }
-
-// MARK: - Formatting update
