@@ -242,5 +242,3 @@ struct NewDealView: View {
             .navigationTitle("New Deal")
     }
 }
-
-// MARK: - Formatting update
