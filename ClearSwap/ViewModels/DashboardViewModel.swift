@@ -29,3 +29,5 @@ final class DashboardViewModel {
         HapticsService.shared.playTap()
     }
 }
+
+// MARK: - Formatting update
