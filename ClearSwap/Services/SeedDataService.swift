@@ -79,5 +79,3 @@ enum SeedDataService {
         try? context.save()
     }
 }
-
-// MARK: - Formatting update
