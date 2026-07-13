@@ -160,5 +160,3 @@ struct OnboardingPage {
     let body: String
     let badge: String
 }
-
-// MARK: - Formatting update
