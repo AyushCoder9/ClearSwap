@@ -246,5 +246,3 @@ struct BuyerCheckoutView: View {
         }
     }
 }
-
-// MARK: - Formatting update
