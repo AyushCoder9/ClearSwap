@@ -157,3 +157,5 @@ struct AddPassViewControllerRepresentable: UIViewControllerRepresentable {
         }
     }
 }
+
+// MARK: - Formatting update
