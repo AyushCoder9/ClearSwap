@@ -85,5 +85,3 @@ final class AppCoordinator: ObservableObject {
         presentedDeal = nil
     }
 }
-
-// MARK: - Formatting update
