@@ -62,3 +62,5 @@ final class CheckoutViewModel {
         }
     }
 }
+
+// MARK: - Formatting update
