@@ -33,5 +33,3 @@ struct ClearSwapApp: App {
         .modelContainer(sharedModelContainer)
     }
 }
-
-// MARK: - Formatting update
