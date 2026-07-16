@@ -69,3 +69,5 @@ final class ValuationService: ObservableObject {
         return Decimal(hash)
     }
 }
+
+// MARK: - Formatting update
