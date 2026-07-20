@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #f5efe2;
+  --color-ink: #17140d;
+  --color-teal: #12b3a4;
+  --color-coral: #ff5b57;
+  --color-mustard: #ffc531;
+  --color-violet: #6b5be6;
+  --color-sky: #3aa0ff;
+
+  --font-display: var(--font-bricolage), sans-serif;
+  --font-sans: var(--font-dm-sans), sans-serif;
+
+  --shadow-hard: 8px 8px 0 var(--color-ink);
+  --shadow-hard-sm: 5px 5px 0 var(--color-ink);
+}
+
+@layer base {
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+  }
+}
+
+/* Base Memphis Utilities */
+.border-memphis {
+  border: 3px solid var(--color-ink);
+}
+
+.shadow-memphis {
+  box-shadow: var(--shadow-hard);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.shadow-memphis-sm {
+  box-shadow: var(--shadow-hard-sm);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.hover-memphis:hover {
+  transform: translate(4px, 4px);
+  box-shadow: calc(var(--shadow-hard) - 4px) calc(var(--shadow-hard) - 4px) 0 var(--color-ink); /* Mock collapse */
+}
+
+/* Animations for Confetti */
+@keyframes drift {
+  0% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-20px) rotate(5deg); }
+  100% { transform: translateY(0px) rotate(0deg); }
+}
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@keyframes bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+@keyframes sway {
+  0%, 100% { transform: translateX(0) rotate(0deg); }
+  50% { transform: translateX(15px) rotate(10deg); }
+}
+
+.animate-drift { animation: drift 8s ease-in-out infinite; }
+.animate-spin-slow { animation: spin-slow 12s linear infinite; }
+.animate-bob { animation: bob 4s ease-in-out infinite; }
+.animate-sway { animation: sway 6s ease-in-out infinite; }
