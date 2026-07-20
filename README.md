@@ -25,6 +25,15 @@
 
 ---
 
+## ▎Web Simulator (Next.js)
+
+Don't have an iOS device handy? We've built a **pixel-perfect, interactive E2E simulator** on the web! Located in the `web/` directory, this Next.js web app provides a 7-step interactive story mimicking the native iOS flows (from Market Intelligence to Apple Wallet Receipts).
+
+* **Tech Stack:** Next.js 15, TailwindCSS (Memphis Design System), Framer Motion, Playwright.
+* **Try it out:** Navigate to the `web/` folder, run `npm install`, and `npm run dev`.
+
+---
+
 ## ▎Core Features & Integrations
 
 ### Market Valuation Studio
